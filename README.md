@@ -25,5 +25,5 @@ JsonServer\package.json
   }
 }
 
-启动命令
+启动
 npm run json:server
