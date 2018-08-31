@@ -1,14 +1,16 @@
 # JsonServer
 
 //修改LocalHost为ip地址
+
 jecJsonServer\node_modules\json-server\lib\cli\index.js
  host: {
       alias: 'H',
       description: 'Set host',
       default: '0.0.0.0'
-    },
-    
+    }
+		
 //修改启动项 
+
 JsonServer\package.json
 {
   "name": "jsonserver",
@@ -26,4 +28,5 @@ JsonServer\package.json
 }
 
 启动
+
 npm run json:server
